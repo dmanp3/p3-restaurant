@@ -1,5 +1,7 @@
 /* Set Your Own Margin & Padding */
 h2, h3, p {
+  
+  font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
 
@@ -7,6 +9,24 @@ h2, h3, p {
 section {
 	margin: 20px 0;
 }
+
+
+
+.color-1 {
+	background: #E5DEDC
+}
+
+
+.color-2
+.color-3
+.pattern-1
+.pattern-2
+.pattern-3
+.imagery-1
+.imagery-2
+.imagery-3
+
+
 
 .color-1,
 .color-2,
@@ -22,6 +42,7 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	color: #B02B3C;
 }
 
 
