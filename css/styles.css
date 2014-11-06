@@ -1,0 +1,43 @@
+
+body {
+	background-color: #BDBCBE;
+}
+/** Menu *//
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.ui.menu .item, .ui.menu .item>a:not(.button) {
+	color: #1D1815;
+	background-color: #FEF6F4;
+}
+.ui.menu .item {
+	position: relative;
+padding: .83em .95em;
+border-top: 0 solid transparent;
+-webkit-tap-highlight-color: transparent;
+top:  0; left: 0; bottom: 0; right: 0;
+}
+
+
+/** Background **/
+.toppage {
+	width: 1100px;
+  
+	margin: auto;
+  position: absolute;
+  top:  0; left: 0; bottom: 0; right: 0;
+}
+
+.middle {
+background: #FEF6F4;
+  width: 1100px;
+  height: 2000px;
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.ui.menu .item {
+font-size: 1.27rem;
+
