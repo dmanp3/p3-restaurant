@@ -12,12 +12,54 @@ html {
 	color: #1D1815;
 	background-color: #FEF6F4;
 }
+
+
 .ui.menu .item {
 	position: relative;
 padding: .83em .95em;
 border-top: 0 solid transparent;
 -webkit-tap-highlight-color: transparent;
 top:  0; left: 0; bottom: 0; right: 0;
+}
+
+.ui.fluid.three.item.menu {
+	position:relative;
+	width:1100px;
+	left:400px;
+
+}
+.ui.menu.fluid, .ui.vertical.menu.fluid {
+width: 1100px!important;
+
+}
+
+.ui.menu {
+position:relative;
+left:-280px;
+width:1100px;
+bottom:20px;
+}
+
+
+.ui.menu.three.item .item {
+width:366.666666667px;
+position:relative;
+
+}
+
+
+
+
+/** second menu **/
+.ui.menu.second {
+position:relative;
+left:400px;
+top:400px;
+width:1100px;
+}
+
+a.item {
+	width:220px;
 }
 
 
@@ -27,7 +69,8 @@ top:  0; left: 0; bottom: 0; right: 0;
   
 	margin: auto;
   position: absolute;
-  top:  0; left: 0; bottom: 0; right: 0;
+  top:  0; left: 0; bottom: 20; right: 0;
+
 }
 
 .middle {
@@ -40,4 +83,6 @@ background: #FEF6F4;
 }
 .ui.menu .item {
 font-size: 1.27rem;
+}
+/** info **/
 
