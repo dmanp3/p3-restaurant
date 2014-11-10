@@ -87,7 +87,7 @@ a.item {
 .middle {
 background: #FEF6F4;
   width: 1100px;
-  height: 7000px;
+  height: 6150px;
 	margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -136,7 +136,7 @@ top:-5px;
 	font-family: 'Source Sans Pro', sans-serif;
 	width:450px;
 	position:relative;
-	left:1000px;
+	left:975px;
 	top:-10px;
 	background-color:#FEF6F4 ;
 	box-shadow: none;
@@ -145,14 +145,14 @@ top:-5px;
 
 .cater {
 position:relative;
-left:450px;
+left:460px;
 top:-475px;
 }
 
 .directions {
 	position:relative;
-	left:815px;
-	top:;
+	left:835px;
+	top:-450px;
 
 }
 
@@ -160,8 +160,8 @@ div.ui.piled.segment {
   width: 450px;
 
 	position:relative;
-	top:55px;
-	left:450px;
+	top:-960px;
+	left:460px;
 }
 
 .ui.segment.location {
@@ -169,11 +169,15 @@ div.ui.piled.segment {
 	position:relative;
 	width:450px;
 	position:relative;
-	left:1000px;
-	top:340px;
-	font-family:;
+	left:975px;
+	top:-695px;
 }
 
+.infotwo {
+	position:relative;
+	left:0px;
+	top:-270px;
+}
 
 /** dividers **/
 .ui.divider {
@@ -196,11 +200,32 @@ width:1000px;
 
 .ui.divider.three {
 	position:relative;
-	top:310px;
+	top:-460px;
 	left:450px;
 	border-top: 1px solid rgba(0,0,0,.1);
 border-bottom: 1px solid rgb(233, 36, 42);
 width:1000px;
+}
+
+.ui.divider.contact {
+	position:relative;
+	top:-930px;
+	left:450px;
+	border-top: 1px solid rgba(0,0,0,.1);
+border-bottom: 1px solid rgb(233, 36, 42);
+width:1000px;
+}
+
+.ui.vertical.divider.last {
+height:225px;
+position:relative;
+top:-635px;
+}
+
+.ui.vertical.divider.map {
+height:225px;
+position:relative;
+top:-210px;
 }
 
 .ui.vertical.divider {
@@ -227,7 +252,7 @@ border-right: 1px solid rgb(233, 36, 42);
 width: 0;
 height: 80%;
 
-
+}
 /** media quuries **/
 /* Mobile */
 @media screen and (min-width: 320px) {
